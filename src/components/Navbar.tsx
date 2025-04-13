@@ -1,5 +1,4 @@
 'use client'
-import Link from "next/link";
 import { useDispatch } from "react-redux";
 import { logout } from "@/src/features/auth/authSlice";
 import { useRouter } from "next/navigation";

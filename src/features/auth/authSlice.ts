@@ -1,6 +1,6 @@
 'use client'
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { setCookie, deleteCookie, getCookie } from "cookies-next";
+import { setCookie, deleteCookie } from "cookies-next";
 interface AuthState {
   token: string | null;
 }
